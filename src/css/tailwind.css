@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
+}
+.Card-image {
+    @apply w-full h-3/5 rounded-t-lg bg-cover;
+}
+.Card-wrapper {
+    @apply w-full h-2/5  rounded-b-lg;
+}
+.Card-wrapper-title {
+    @apply font-bold text-xl px-4 py-2;
+}
+.Card-wrapper-caption {
+    @apply px-4 text-sm;
+}
+
+.Banner {
+    @apply w-full h-96 bg-cover rounded-xl mb-8;
+}
+.Banner-title {
+    @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+}
+.Banner-description {
+    @apply pl-8 text-white mr-24 text-sm lg:text-lg;
+}
